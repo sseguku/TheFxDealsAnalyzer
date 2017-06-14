@@ -1,0 +1,1 @@
+=IF(B2="USD", INDEX({"UGX","GBP","JPY","EUR","CAD"},RANDBETWEEN(1,4)), IF(B2="GBP", INDEX({"UGX","USD","JPY","EUR","CAD"},RANDBETWEEN(1,4)), IF(B2="JPY", "yen", IF(B2="EUR", "euros", IF(B2="CAD", "canadain", "Yes")))))
