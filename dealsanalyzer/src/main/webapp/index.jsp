@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Fx Deals Analyzer</title>
-</head>
-
-<body>
-<h1>The Fx Deals Analyzer</h1>
-</body>
-
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fx Deals Analyzer</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">	
+	</head>
+	
+	<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		 <div class="navbar-header">
+		 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          	</button>
+          <a class="navbar-brand" href="#">The Fx Deals Analyzer</a>
+		 </div>
+		 
+			 <div id="navbar" class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">Home</a></li>
+	          </ul>
+	        </div>
+      	</div>
+		
+	</nav>	
+	
+	<br><br><br><br><br><br>
+		<div class="container">
+			<div class="row">
+				<form>
+					<div class="form-group">
+					<label for="uploadcsv">File input (.csv)</label>
+    				<input type="file" accept="text/csv, .csv" class="btn btn-default btn-lg" id="uploadcsv">
+					</div>
+				</form>
+			</div>
+		</div>
+	
+	</body>
+	
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fx Deals Analyzer</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">	
+	</head>
+	
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h1>The Fx Deals Analyzer</h1>
+			</div>
+			<div>
+				<form>
+					<div class="form-group">
+					<label for="uploadcsv">File input (.csv)</label>
+    				<input type="file" id="uploadcsv">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</body>
+	
+</html>

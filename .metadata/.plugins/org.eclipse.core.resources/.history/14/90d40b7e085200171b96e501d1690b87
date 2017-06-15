@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Fx Deals Analyzer</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">	
+	</head>
+	
+	<body>
+		<h1>The Fx Deals Analyzer</h1>
+	</body>
+	
+</html>
